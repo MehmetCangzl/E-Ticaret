@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ÜRÜN</title>
+    <!--! Glide.js Css CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css">
+    <!--! Boostrap Icons CDN  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <!--! header start  -->
+    <header>
+        <div class="global-notification">
+          <div class="container">
+            <p>
+              İLK SİPARİŞİNİZDE TAM TAMINA %50 YAZ İNDİRİMİ VE ÜCRETSİZ TESLİMAT
+              <a href="shop.html">ŞİMDİ SATIN AL</a>
+            </p>
+          </div>
+        </div>
+        <div class="header-row">
+          <div class="container">
+            <div class="header-wrapper">
+              <div class="header-mobile">
+                <i class="bi bi-list" id="btn-menu"></i>
+              </div>
+              <div class="header-left">
+                <a href="index.html" class="logo">M&C</a>
+              </div>
+              <div class="header-center" id="sidebar">
+                <nav class="navigation">
+                  <ul class="menu-list">
+                    <li class="menu-list-item">
+                      <a href="index.html" class="menu-link active">
+                        ANASAYFA
+                        <i class="bi bi-chevron-down"></i>
+                      </a>
+                      <div class="menu-dropdown-wrapper">
+                        <ul class="menu-dropdown-content">
+                          <li>
+                            <a href="#">Katagoriler</a>
+                          </li>
+                          <li>
+                            <a href="#">Yeni Eklenenler</a>
+                          </li>
+                          <li>
+                            <a href="#">Cinsiyet</a>
+                          </li>
+                          <li>
+                            <a href="#">İndirimli Ürünler</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li class="menu-list-item megamenu-wrapper">
+                      <a href="shop.html" class="menu-link">
+                        MAĞAZA
+                        <i class="bi bi-chevron-down"></i>
+                      </a>
+                      <div class="menu-dropdown-wrapper">
+                        <div class="menu-dropdown-megamenu">
+                          <div class="megamenu-links">
+                            <div class="megamenu-products">
+                              <h3 class="megamenu-products-title">
+                                Ürünler
+                              </h3>
+                              <ul class="megamenu-menu-list">
+                                <li>
+                                  <a href="#">Cep Telefonu</a>
+                                </li>
+                                <li>
+                                  <a href="#">Saat</a>
+                                </li>
+                                <li>
+                                  <a href="#">Elektronik </a>
+                                </li>
+                                <li>
+                                  <a href="#">Ev Dekorasyon </a>
+                                </li>
+                                <li>
+                                  <a href="#">Mağaza Listesi </a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="megamenu-products">
+                              <h3 class="megamenu-products-title">
+                                Filtre Düzeni
+                              </h3>
+                              <ul class="megamenu-menu-list">
+                                <li>
+                                  <a href="#">Sidebar</a>
+                                </li>
+                                <li>
+                                  <a href="#">Filter Side Out</a>
+                                </li>
+                                <li>
+                                  <a href="#">Filter Dropdown</a>
+                                </li>
+                                <li>
+                                  <a href="#">Filter Drawer</a>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="megamenu-products">
+                              <h3 class="megamenu-products-title">
+                                Shop Loader
+                              </h3>
+                              <ul class="megamenu-menu-list">
+                                <li>
+                                  <a href="#">Shop Pagination</a>
+                                </li>
+                                <li>
+                                  <a href="#">Shop Infinity</a>
+                                </li>
+                                <li>
+                                  <a href="#">Shop Load More</a>
+                                </li>
+                                <li>
+                                  <a href="#">Cart Modal</a>
+                                </li>
+                                <li>
+                                  <a href="#">Cart Drawer</a>
+                                </li>
+                                <li>
+                                  <a href="#">Cart Page</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="megamenu-single">
+                            <a href="#">
+                              <img src="img/mega-menu.jpg" alt="">
+                            </a>
+                            <h3 class="megamenu-single-title">En Yeni ve En KAliteli </h3>
+                            <h4 class="megamenu-single-subtitle">Memnuniyetiniz bizim her şeyimiz</h4>
+                            <a href="#" class="megamenu-single-button btn btn-sm">Şimdi alış-verişe başla</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="menu-list-item">
+                      <a href="blog.html" class="menu-link">
+                        Blog
+                      </a>
+                    </li>
+                    <li class="menu-list-item">
+                      <a href="contact.html" class="menu-link">
+                        İletişim
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+                <i class="bi-x-circle" id="close-sidebar"></i>
+              </div>
+              <div class="header-right">
+                <div class="header-right-links">
+                  <a href="account.html" class="header-account">
+                    <i class="bi bi-person"></i>
+                  </a>
+                  <button class="search-button">
+                    <i class="bi bi-search"></i>
+                  </button>
+                  <a href="#">
+                    <i class="bi bi-heart"></i>
+                  </a>
+                  <div class="header-cart">
+                    <a href="cart.html" class="header-cart-link">
+                      <i class="bi bi-bag"></i>
+                      <span class="header-cart-count">0</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    <!--! header end  -->
+
+    <!--! modal search start  -->
+    <div class="modal-search">
+        <div class="modal-wrapper">
+          <h3 class="modal-title">Ürün Ara</h3>
+          <p class="modal-text"> Aradığınız ürünleri görmek için yazmaya başlayın.</p>
+          <form class="search-form">
+            <input type="text" placeholder="Ürün arayın" />
+            <button>
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+          <div class="search-results">
+            <div class="search-heading">
+              <h3>Üründen sonuçlar</h3>
+            </div>
+            <div class="results">
+              <a href="#" class="result-item">
+                <img
+                  src="img/products/product1/1.png"
+                  class="search-thumb"
+                  alt=""
+                />
+                <div class="search-info">
+                  <h4>Analogue Resin Strap</h4>
+                  <span class="search-sku">SKU: PD0016</span>
+                  <span class="search-price">$108.00</span>
+                </div>
+              </a>
+              <a href="#" class="result-item">
+                <img
+                  src="img/products/product2/1.png"
+                  class="search-thumb"
+                  alt=""
+                />
+                <div class="search-info">
+                  <h4>Analogue Resin Strap</h4>
+                  <span class="search-sku">SKU: PD0016</span>
+                  <span class="search-price">$108.00</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <i class="bi bi-x-circle" id="close-search"></i>
+        </div>
+      </div>
+    <!--! modal search end  -->
+
+    <!--! modal dialog start  -->
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <button class="modal-close">
+            <i class="bi bi-x"></i>
+          </button>
+          <div class="modal-image">
+            <img src="img/modal-dialog.jpg" alt="">
+          </div>
+          <div class="popup-wrapper">
+            <div class="popup-content">
+              <div class="popup-title">
+                <h3>Ailemize Katılmak İstermisiniz</h3>
+              </div>
+              <p class="popup-text">
+                Bültenimize kaydolun ve başka herhangi bir yerde bulamayacağınız özel fırsatları doğrudan gelen kutunuza alın! </p>
+              <form class="popup-form">
+                <input type="text" placeholder="Enter Email Address Here">
+                <button class="btn btn-primary">Abone ol</button>
+                <label>
+                  <input type="checkbox">
+                  <span> Bu açılır pencereyi bir daha gösterme</span> 
+                </label>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--! modal dialog end  -->
+
+    <!--! single product start  -->
+    <section class="single-product">
+        <div class="container">
+            <div class="single-product-wrapper">
+                <!-- breadcrumb start -->
+                <div class="single-topbar">
+                    <nav class="breadcrumb">
+                        <ul>
+                            <li><a href="#">Anasayfa</a></li>
+                            <li><a href="#">Takım </a></li>
+                            <li>Basic Colored Sweatpants With Elastic Hems</li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- breadcrumb end -->
+
+                <!-- site main start -->
+                <div class="single-content">
+                    <main class="site-main">
+                        <div class="product-gallery">
+                            <div class="single-image-wrapper">
+                                <img src="img/products/product2/1.png" id="single-image" alt="">
+                            </div>
+                            <div class="product-thumb">
+                                <div class="glide__track" data-glide-el="track">
+                                    <ol class="gallery-thumbs glide__slides"></ol>
+                                </div>
+                                <div class="glide__arrows" data-glide-el="controls">
+                                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                                        <i class="bi bi-chevron-left"></i>
+                                    </button>
+                                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                                        <i class="bi bi-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h1 class="product-title">
+                                Ridley High Waist
+                            </h1>
+                            <div class="product-review">
+                                <ul class="product-star">
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-half"></i></li>
+                                </ul>
+                                <span>2 reviews</span>
+                            </div>
+                            <div class="product-price">
+                                <s class="old-price">$165</s>
+                                <strong class="new-price">$100</strong>
+                            </div>
+                            <p class="product-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua.
+                            </p>
+                            <form class="variations-form">
+                                <div class="variations">
+                                    <div class="colors">
+                                        <div class="colors-label">
+                                            <span>Color</span>
+                                        </div>
+                                        <div class="colors-wrapper">
+                                            <div class="color-wrapper">
+                                                <label class="blue-color">
+                                                    <input type="radio" name="product-color">
+                                                </label>
+                                            </div>
+                                            <div class="color-wrapper">
+                                                <label class="red-color">
+                                                    <input type="radio" name="product-color">
+                                                </label>
+                                            </div>
+                                            <div class="color-wrapper active">
+                                                <label class="green-color">
+                                                    <input type="radio" name="product-color">
+                                                </label>
+                                            </div>
+                                            <div class="color-wrapper">
+                                                <label class="purple-color">
+                                                    <input type="radio" name="product-color">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="values">
+                                        <div class="values-label">
+                                            <span>Size</span>
+                                        </div>
+                                        <div class="values-list">
+                                            <span class="active">XS</span>
+                                            <span>S</span>
+                                            <span>M</span>
+                                            <span>L</span>
+                                            <span>XL</span>
+                                        </div>
+                                    </div>
+                                    <div class="cart-button">
+                                        <input type="number" value="1" min="1" id="quantity">
+                                        <button class="btn btn-lg btn-primary" id="add-to-cart" type="button">Sepete Ekle</button>
+                                    </div>
+                                    <div class="product-extra-buttons">
+                                        <a href="#">
+                                            <i class="bi bi-globe"></i>
+                                            <span>Ölçü Rehberi</span>
+                                        </a>
+                                        <a href="#">
+                                            <i class="bi bi-heart"></i>
+                                            <span>İstek listesine ekle</span>
+                                        </a>
+                                        <a href="#">
+                                            <i class="bi bi-share"></i>
+                                            <span>Bu ürünü paylaş</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="divider"></div>
+                            <div class="product-meta">
+                                <div class="product-sku">
+                                    <span>SKU:</span>
+                                    <strong>BE45VGRT</strong>
+                                </div>
+                                <div class="product-categories">
+                                    <span>Categories:</span>
+                                    <strong>Pants , Women</strong>
+                                </div>
+                                <div class="product-tags">
+                                    <span>Tags:</span>
+                                    <a href="#">black</a>
+                                    ,
+                                    <a href="#">white</a>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+                <!-- site main end -->
+
+                <!-- tabs start -->
+                <div class="single-tabs">
+                    <ul class="tab-list">
+                        <li>
+                            <a href="#" class="tab-button active" data-id="desc">Tanım</a>
+                        </li>
+                        <li>
+                            <a href="#" class="tab-button" data-id="info">
+                                Ek Bilgiler
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="tab-button" data-id="reviews">
+                                İncelemeler
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-panel">
+                        <div class="tab-panel-descriptions content active" id="desc">
+                            <p>Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui
+                                finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat
+                                ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales
+                                nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia.
+                                Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare
+                                vel, dignissim a tortor.</p>
+                            <br>
+                            <p>Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui
+                                finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat
+                                ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales
+                                nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia.
+                                Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare
+                                vel, dignissim a tortor.</p>
+                        </div>
+                        <div class="tab-panel-information content" id="info">
+                            <h3>Ek Bilgiler</h3>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>REnk</th>
+                                        <td>
+                                            <p>
+                                                Apple Red, Bio Blue, Sweet Orange, Blue, Green, Pink, Black, White</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>Beden</th>
+                                        <td>
+                                            <p>
+                                                XXS, XS, S, M, L, XL, XXL</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-panel-reviews content" id="reviews">
+                            <h3>2 inceleme Basic Colored Sweatpants With Elastic Hems</h3>
+                            <div class="comments">
+                                <ol class="comment-list">
+                                    <li class="comment-item">
+                                        <div class="comment-avatar">
+                                            <img src="img/avatars/avatar1.jpg" alt="">
+                                        </div>
+                                        <div class="comment-text">
+                                            <ul class="comment-star">
+                                                <li>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="comment-meta">
+                                                <strong>admin</strong>
+                                                <span>-</span>
+                                                <time>April 23, 2023</time>
+                                            </div>
+                                            <div class="comment-description">
+                                                <p>Sed perspiciatis unde omnis iste natus error sit voluptatem
+                                                    accusantium doloremque laudantium.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="comment-item">
+                                        <div class="comment-avatar">
+                                            <img src="img/avatars/avatar1.jpg" alt="">
+                                        </div>
+                                        <div class="comment-text">
+                                            <ul class="comment-star">
+                                                <li>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="bi bi-star-fill"></i>
+                                                </li>
+                                            </ul>
+                                            <div class="comment-meta">
+                                                <strong>admin</strong>
+                                                <span>-</span>
+                                                <time>April 23, 2022</time>
+                                            </div>
+                                            <div class="comment-description">
+                                                <p>Sed perspiciatis unde omnis iste natus error sit voluptatem
+                                                    accusantium doloremque laudantium.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                            <!-- comment form start -->
+                            <div class="review-form-wrapper">
+                                <h2>İnceleme ekle</h2>
+                                <form class="comment-form">
+                                    <p class="comment-notes">
+                                        E-posta hesabınız yayımlanmayacak. Gerekli alanlar işaretlendi
+                                        <span class="required">*</span>
+                                    </p>
+                                    <div class="comment-form-rating">
+                                        <label>
+                                            Puanlama Yapınız
+                                            <span class="required">*</span>
+                                        </label>
+                                        <div class="stars">
+                                            <a href="#" class="star">
+                                                <i class="bi bi-star-fill"></i>
+                                            </a>
+                                            <a href="#" class="star">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </a>
+                                            <a href="#" class="star">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </a>
+                                            <a href="#" class="star">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </a>
+                                            <a href="#" class="star">
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                                <i class="bi bi-star-fill"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="comment-form-comment form-comment">
+                                        <label for="comment">
+                                            Yorumun
+                                            <span class="required">*</span>
+                                        </label>
+                                        <textarea id="comment-text" cols="50" rows="10" required></textarea>
+                                    </div>
+                                    <div class="comment-form-author form-comment">
+                                        <label for="name">
+                                            İsim-Soyisim
+                                            <span class="required">*</span>
+                                        </label>
+                                        <input id="comment-name" type="text" required>
+                                    </div>
+                                    <div class="comment-form-email form-comment">
+                                        <label for="email">
+                                            Email
+                                            <span class="required">*</span>
+                                        </label>
+                                        <input id="email" type="email">
+                                    </div>
+                                    <div class="comment-form-cookies">
+                                        <input id="cookies" name="cookies" type="checkbox">
+                                        <label for="cookies">
+                                            Bir dahaki sefere kullandığımda kullanılmak üzere adımı, e-posta adresimi ve web site adresimi bu tarayıcıya kaydediyorum.
+                                            <span class="required">*</span>
+                                        </label>
+
+                                    </div>
+                                    <div class="form-submit">
+                                        <input type="submit" class="btn submit">
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- comment form end -->
+                        </div>
+                    </div>
+                </div>
+                <!-- tabs end -->
+
+            </div>
+        </div>
+    </section>
+    <!--! single product end  -->
+
+    <!--! campaign single start  -->
+    <section class="campaign-single">
+        <div class="container">
+          <div class="campaign-wrapper">
+            <h2> Yeni Sezon İndirimi</h2>
+            <strong>%40 İNDİRİM</strong>
+            <span></span>
+            <a href="#" class="btn btn-lg">
+              ŞİMDİ SATIN AL
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    <!--! campaign single end  -->
+
+    <!--! policy start  -->
+    <section class="policy">
+        <div class="container">
+          <ul class="policy-list">
+            <li class="policy-item">
+              <i class="bi bi-truck"></i>
+              <div class="policy-texts">
+                <strong>ÜCRETSİZ TESLİMAT</strong>
+                <span>59,89 $'dan başlayan fiyatlarla</span>  
+              </div>
+            </li>
+            <li class="policy-item">
+              <i class="bi bi-headset"></i>
+              <div class="policy-texts">
+                <strong>7/24 DESTEK</strong>
+                <span> 24 saat çevrimiçi</span>
+              </div>
+            </li>
+            <li class="policy-item">
+              <i class="bi bi-arrow-clockwise"></i>
+              <div class="policy-texts">
+                <strong>  30 GÜN İÇİNDE İADE</strong>
+                <span> 30 gün içinde iade etmeniz yeterli</span>
+              </div>
+            </li>
+            <li class="policy-item">
+              <i class="bi bi-credit-card"></i>
+              <div class="policy-texts">
+                <strong>ÖDEME YÖNTEMİ</strong>
+                <span> Güvenli ödeme</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    <!--! policy end  -->
+
+    <!--! footer start  -->
+    <footer class="footer">
+      <div class="subscribe-row">
+        <div class="container">
+          <div class="footer-row-wrapper">
+            <div class="footer-subscribe-wrapper">
+              <div class="footer-subscribe">
+                <div class="footer-subscribe-top">
+                  <h3 class="subscribe-title">Yeni ürünler, indirimler ve daha fazlası hakkında bilgi almak için e-postalarımızı alın.
+                  </h3>
+                  <p class="subscribe-desc">İlk siparişinizde 10$ değerinde bir kuponu size e-postayla göndereceğiz
+                    50 doların üzerinde.</p>
+                </div>
+                <div class="footer-subscribe-bottom">
+                  <form>
+                    <input type="text" placeholder="Enter your email address.">
+                    <button class="btn">Abone Ol</button>
+                  </form>
+                  <p class="privacy-text">
+                    Abone olarak şunları kabul etmiş olursunuz <a href="#">Şartlar ve Koşullar ve Gizlilik ve Çerez Politikası.</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-contact-wrapper">
+              <div class="footer-contact-top">
+                <h3 class="contact-title">
+                  Yardıma mı ihtiyacınız var? <br />
+                  (+90) 507 021 0363
+                </h3>
+                <p class="contact-desc">Sabah 8.00 – akşam 19.00 arası açığız</p>
+              </div>
+              <div class="footer-contact-bottom">
+                <div class="download-app">
+                  <a href="#">
+                    <img src="img/footer/app-store.png" alt="">
+                  </a>
+                  <a href="#">
+                    <img src="img/footer/google-play.png" alt="">
+                  </a>
+                </div>
+                <p class="privacy-text">
+                  <strong>Alışveriş Uygulaması:</strong> Odanızda Manzaramızı Deneyin
+                  özelliğini kullanın, kayıtları yönetin ve ödeme bilgilerini kaydedin.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="widgets-row">
+        <div class="container">
+          <div class="footer-widgets">
+            <div class="brand-info">
+              <div class="footer-logo">
+                 <a href="index.html" class="logo">LOGO</a>
+              </div>
+              <div class="footer-desc">
+                <p> Yurt dışından bize ulaşmak isteyen müşterilerimiz bu numara ile irtibata geçebilir</p>
+              </div>
+              <div class="footer-contact">
+                <p>
+                  <a href="tel:555 555 55 55">(+800) 1234 5678 90</a> – <a
+                    href="mailto:info@example.com">info@example.com</a>
+                </p>
+              </div>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Bilgi</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Hakında</a>
+                </li>
+                <li>
+                  <a href="#">Gizlilik Politikası</a>
+                </li>
+                <li>
+                  <a href="#">İade Politikası</a>
+                </li>
+                <li>
+                  <a href="#">Nakliye Politikası</a>
+                </li>
+                <li>
+                  <a href="#">Direk nakliye</a>
+                </li>
+              </ul>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Hesap</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Gösterge Paneli</a>
+                </li>
+                <li>
+                  <a href="#">Siparişlerim</a>
+                </li>
+                <li>
+                  <a href="#">Benim dilek listem</a>
+                </li>
+                <li>
+                  <a href="#">Hesap detayları</a>
+                </li>
+                <li>
+                  <a href="#">Siparişlerimi Takip Et</a>
+                </li>
+              </ul>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Mağaza</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Ortaklık</a>
+                </li>
+                <li>
+                  <a href="#">En çok satanlar</a>
+                </li>
+                <li>
+                  <a href="#">İndirim</a>
+                </li>
+                <li>
+                  <a href="#">En Son Ürünler</a>
+  
+                </li>
+                <li>
+                  <a href="#">İndirimli Ürünler</a>
+                </li>
+              </ul>
+            </div>
+            <div class="widget-nav-menu">
+              <h4>Kategoriler</h4>
+              <ul class="menu-list">
+                <li>
+                  <a href="#">Kadın</a>
+                </li>
+                <li>
+                  <a href="#">Erkek</a>
+                </li>
+                <li>
+                  <a href="#">Sepet</a>
+                </li>
+                <li>
+                  <a href="#">Dış Gİyim</a>
+                </li>
+                <li>
+                  <a href="#">Ayakkabı</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-row">
+        <div class="container">
+          <div class="footer-copyright">
+            <div class="site-copyright">
+              <p>
+                Copyright 2023 ©E-Ticaret Teması. Bütün hakları saklıdır. Güçlendirilmiş Mehmet Can Güzel
+              </p>
+            </div>
+            <a href="#">
+              <img src="img/footer/cards.png" alt="">
+            </a>
+            <div class="footer-menu">
+              <ul class="footer-menu-list">
+                <li class="list-item">
+                  <a href="#">Gizlilik Politikası</a>
+                </li>
+                <li class="list-item">
+                  <a href="#">Şartlar ve koşullar</a>
+                </li>
+                <li class="list-item">
+                  <a href="#">İade Politikası</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--! footer end  -->
+
+
+    <script src="js/main.js" type="module"></script>
+    <script src="js/single-product.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="js/glide.js" type="module"></script>
+</body>
+
+</html>
